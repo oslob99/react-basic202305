@@ -4,6 +4,9 @@ import ChangeEvent from './component/chap01_event/ChangeEvent';
 // import SayHello from './SayHello';
 import ClickEvent from './component/chap01_event/ClickEvent';
 import SubmitEvent from './component/chap01_event/SubmitEvent';
+import Counter from './component/chap03/Counter';
+import NickName from './component/chap03/NickName';
+import FoodList from './component/chop02_props/FoodList';
 
 
 function App() {
@@ -20,7 +23,7 @@ function App() {
 
   return (
     <>
-      <SubmitEvent />
+      <Counter />
     </>
   );
 }
